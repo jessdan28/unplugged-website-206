@@ -344,7 +344,7 @@ reviews h3 {
 }
 
 /** About Page Styles **/
-mission {
+.mission {
     background-color: #527158;
     display: flex;
     justify-content: center;
@@ -364,9 +364,25 @@ mission {
     margin: 0;
 }
 
+.map figure {
+    width: 100%;
+    height: 0; 
+    padding-bottom: 93%; 
+    overflow: hidden;
+    position: relative;
+}
+ 
+.map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+
 /** FAQ Page Styles **/
 
-faq {
+.faq {
     background-color: #527158;
     display: flex;
     justify-content: center;
