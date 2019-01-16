@@ -614,6 +614,10 @@ faq .content-wrapper {
         width: 40%; 
     }
 
+    .map figure {
+        padding-bottom: 58.5%;
+      }    
+
     .contact-section, .content-wrapper h2 {
         width: 80%;
     }
@@ -686,6 +690,9 @@ faq .content-wrapper {
         margin-bottom: 40px;
     }
  
+    .map figure {
+        padding-bottom: 32.5%;
+      }
  
 /* ==========================================================================
    FAQ Page
